@@ -100,7 +100,7 @@ while (Chicken.health > 0) and (Chicken.hungry < 100) and (Chicken.courage > 0 )
             Chicken.Changecourage(+10) and Chicken.Changehungry(+10)
             print("狗追上來啦!跑喔!! 膽識+10! 飢餓程度+10")
     elif command == '5':
-        sport =(input(print("我想當醉雞 不想當大肌雞...要動啥1.曬太陽 2.生蛋 3.玩老鷹抓小雞")))
+        sport =(input("我想當醉雞 不想當大肌雞...要動啥1.曬太陽 2.生蛋 3.玩老鷹抓小雞"))
         if  sport == '1':
             Chicken.Changehealth(+10) and Chicken.Changehumor(-10) and Chicken.Changehungry(+10)
             print("如果曬到皮膚都黑了我會不會變成烏骨雞 健康程度+10 心情狀態-10 飢餓程度+10")
